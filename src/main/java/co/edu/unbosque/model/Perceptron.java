@@ -1,4 +1,4 @@
-package co.edu.unbosque.perceptron;
+package co.edu.unbosque.model;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Arrays;

@@ -1,7 +1,7 @@
 package co.edu.unbosque.main;
 import java.util.Arrays;
 
-import co.edu.unbosque.perceptron.Perceptron;
+import co.edu.unbosque.model.Perceptron;
 import co.edu.unbosque.view.Ventana;
 
 public class Main {

@@ -1,4 +1,4 @@
-package co.edu.unbosque.perceptron;
+package co.edu.unbosque.model;
 
 public class TablaException extends RuntimeException {
 	

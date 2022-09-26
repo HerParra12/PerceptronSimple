@@ -1,4 +1,4 @@
-package co.edu.unbosque.perceptron;
+package co.edu.unbosque.model;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -14,7 +14,6 @@ public class PerceptronFamilia {
 		umbral = 1;
 		factorAprendizaje = 0.5;
 	}
-
 
 	public double [] functionActivacion(double [] entrada) {
 		System.out.println("Entradas = " + Arrays.toString(entrada));
@@ -40,10 +39,8 @@ public class PerceptronFamilia {
 				index = index < 7? index +1 : 0;
 				formatEntrada(entrada);
 			}
-			System.out.println("Recalculos = " + recalculos);
 			if(isSuccess(pasadas)) break;
 			pasadas = index == 0? pasadasFalse(pasadas) : pasadas;
-			break;
 		}
 		System.out.println("Pesos finales = " + Arrays.toString(entrada) + ", cantidad de recalculo = " + recalculos);
 		return entrada;
